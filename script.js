@@ -19,13 +19,12 @@ submit.addEventListener('click',()=>{
     newlist.innerHTML=`
 
       <div class="NameContainer">${data.name}</div>
-      <a href="mailto:anushaviswanathan55610@ieee.org">${data.email}</a><br>
-      <a href="www.anushaviswanathan.com">${data.websitelink}</a>
+      <a href="mailto:asifatasneem2001@gmail.com">${data.email}</a><br>
+      <a href="www.astas.com">${data.websitelink}</a>
       <div class="SkillContainer">${data.skills}</div>
     `
     console.log(newlist);
     output.appendChild(newlist);
-   
     let input=document.querySelectorAll('input');
     input.forEach(input => {
         input.value = '';
